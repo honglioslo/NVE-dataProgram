@@ -2,3 +2,5 @@ license: https://data.norge.no/nlod/en/1.0
 machine info: fusta or glitra
 
 1 start &
+2 get discharge data: lescon_var -s 196101010000 -e 201501010000 -f timevalue 5 $reg $mno 0 1001 0 > $reg.$mno.0.1001.0.var
+
